@@ -116,7 +116,7 @@
 
 
 - (BOOL)shouldAutorotate {
-    return NO;
+    return YES;
 }
 
 - (BOOL)prefersStatusBarHidden {
@@ -132,7 +132,7 @@
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskPortrait;
+    return UIInterfaceOrientationMaskAll;
 }
 
 #pragma mark - ZFPortraitOrientationDelegate
